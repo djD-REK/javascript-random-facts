@@ -20,6 +20,7 @@ const functionTwo = () => {
 functionTwo();
 // Results: true true
 
+// Question 2
 function returnAnObject() {
   return;
   {
@@ -43,3 +44,11 @@ const returnAnotherObjectArrow = () => {
 };
 console.log(returnAnotherObjectArrow());
 // Results: undefined, Object {test: 1}, undefined, Object {test: 1}
+
+// Question 3
+console.log(Number("7") - 7 == 0);
+console.log(Number("7") - 7 === 0);
+console.log(Number("7") - 7 === Number("0"));
+console.log("7" - 7 == "0");
+console.log("7" - 7 === "0");
+// Results: true, true, true, true, false
